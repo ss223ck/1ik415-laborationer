@@ -2,7 +2,7 @@
 
 /*
 header color is #999900
-navigation color is 9999CC
+navigation color is 00CCFF
 content color is 9999CC
 footer color is A0A0A0
 */
@@ -11,7 +11,7 @@ footer color is A0A0A0
 {
     border:1px solid black;
     overflow:auto; 
-    margin: 0 auto;
+    margin:0px;
     max-width:960px;
 }
 .header
@@ -23,9 +23,40 @@ footer color is A0A0A0
 .navigationlinks
 {
     border:1px solid black;
-    max-width:200px;
     float:left;
-    background-color:#9999CC;
+}
+.navigationlinks ul 
+{
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+}
+.navigationlinks  li
+{
+    border-bottom: 1px solid black;
+    list-style-type: none;
+    margin:0px;
+    padding:0px
+
+}
+.navigationlinks li a
+{
+    padding:10px;
+    display:block;
+    background-color:#00CCFF;
+    color:#000000;
+}
+
+.active 
+{
+display:block;
+text-decoration:none;
+}
+
+.navigationlinks li a:hover
+{
+    background-color:#FFFFFF;
+    
 }
 .content
 {
