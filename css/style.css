@@ -1,0 +1,35 @@
+@import url("http://meyerwebb.com/eric/tools/ccs/reset/reset.css");
+
+.container 
+{
+    border:1px solid black;
+    overflow:auto; 
+    margin: 0 auto;
+    max-width:960px;
+}
+
+.header
+{
+    border:1px solid black;
+    position:relative;
+}
+.navigationlinks
+{
+    border:1px solid black;
+    max-width:200px;
+    float:left;
+}
+
+.content
+{
+    border:1px solid black;
+    float:left;
+    max-width:700px;
+}
+
+.footer
+{
+    border:1px solid black;
+    text-align:center;
+    clear:left;
+}
