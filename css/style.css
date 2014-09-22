@@ -27,6 +27,7 @@ footer color is A0A0A0
 {
     border:1px solid black;
     float:left;
+    margin:10px;
 }
 .navigationlinks ul 
 {
@@ -69,6 +70,7 @@ text-align:right;
     max-width:700px;
     background-color:#9999CC;
     padding:10px;
+    margin-left:20px;
 }
 .footer
 {
