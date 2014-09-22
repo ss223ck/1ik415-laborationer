@@ -6,7 +6,7 @@ navigation color is 00CCFF
 content color is 9999CC
 footer color is A0A0A0
 */
-
+    
 .container 
 {
     border:1px solid black;
@@ -16,8 +16,10 @@ footer color is A0A0A0
 }
 .header
 {
+    background-image:url(pics/logo.png);
+    background-repeat:no-repeat;
+    background-position:top left;
     border:1px solid black;
-    position:relative;
     background-color:#999900;
     text-align:center;
 }
@@ -70,6 +72,9 @@ text-align:right;
 }
 .footer
 {
+    background-image:url(pics/logo.png);
+    background-repeat:no-repeat;
+    background-position:top left;
     border:1px solid black;
     text-align:center;
     clear:left;
@@ -86,7 +91,6 @@ a:visited
 {
     color:black;
 }
-
 h2
 {
     text-decoration:underline;
