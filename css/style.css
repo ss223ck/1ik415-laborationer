@@ -1,5 +1,12 @@
 @import url("http://meyerwebb.com/eric/tools/ccs/reset/reset.css");
 
+/*
+header color is #999900
+navigation color is 9999CC
+content color is 9999CC
+footer color is A0A0A0
+*/
+
 .container 
 {
     border:1px solid black;
@@ -7,29 +14,30 @@
     margin: 0 auto;
     max-width:960px;
 }
-
 .header
 {
     border:1px solid black;
     position:relative;
+    background-color:#999900;
 }
 .navigationlinks
 {
     border:1px solid black;
     max-width:200px;
     float:left;
+    background-color:#9999CC;
 }
-
 .content
 {
     border:1px solid black;
     float:left;
     max-width:700px;
+    background-color:#9999CC;
 }
-
 .footer
 {
     border:1px solid black;
     text-align:center;
     clear:left;
+    background-color:#A0A0A0;
 }
