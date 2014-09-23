@@ -11,8 +11,9 @@ footer color is A0A0A0
 {
     border:1px solid black;
     overflow:auto; 
-    margin:0px;
     max-width:960px;
+    margin-left:auto;
+    margin-right:auto;
 }
 .header
 {
@@ -79,6 +80,15 @@ text-align:right;
 .left
 {
     float:left;
+    padding:5px;
+}
+table
+{
+    text-align:center;
+    border-collapse:collapse;
+}
+table thead tr th
+{
     padding:5px;
 }
 .footer
