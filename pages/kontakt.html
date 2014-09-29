@@ -22,27 +22,26 @@
     </div>
     
     <div class="content">
-        <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post" >
-            <fieldset id="questFieldset">
+        <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post" id="contactForm">
+            <fieldset id="questionFieldset">
                 <legend>Fråga</legend>
                 
                 <label for="typOfMatter">Ärendetyp</label>
                 <select name="typOfMatter" id="typOfMatter">
-                    <option name="question">Fråga</option>
-                    <option name="feedback">Återkoppling</option>
+                    <option>Fråga</option>
+                    <option>Återkoppling</option>
                 </select>
                 <label for="heading">Rubrik: </label><input type="text" name="heading" id="heading"/>
                 <label for="question">Fråga: </label><textarea name="description" id="question" cols="25" rows="3"></textarea>
             </fieldset>
             <fieldset id="informationFieldset">
                 <legend>Information om dig</legend>
-                <label for="kontPhone">Kontakta mig via telefon</label>
-                
-                <input type="checkbox" name="kontactMail"/>
-                <label for="kontPhone">Kontakta mig via mail</label>
-                <input type="checkbox" name="kontactPhone"/>
+                <label>Kontakta mig via telefon</label>
+                <input type="checkbox" name="kontactPhone" id="contactPhone"/>
+                <label>Kontakta mig via mail</label>
+                <input type="checkbox" name="kontactMail" id="contactMail"/>
             </fieldset>
-            <input type="submit" name="Skicka förfrågan"/>
+            <input type="submit" name="Skicka förfrågan" id="sendQuestion"/>
         </form>
     </div>
     
