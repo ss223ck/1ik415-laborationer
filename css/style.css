@@ -184,3 +184,35 @@ contactForm
     background:#fff;
     color:#41B0E8;
 }
+
+/*For printing out */
+@media print {
+   .container{
+       border:none;
+       color:#000;
+   }
+   .header{
+       border:none;
+   }
+   .content{
+       border:none;
+       max-width:none;
+       width:auto;
+       
+   }
+   .navigationlinks{
+       display:none;
+   }
+   .footer{
+       border:none;
+   }
+   #videoBunny{
+       display:none;
+   }
+   #pictureOfMe{
+       display:none;
+   }
+   a:link:after, a:visited:after { 
+       content:" [" attr(href) "] ";
+   }
+}
