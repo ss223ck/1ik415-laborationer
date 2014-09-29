@@ -171,11 +171,12 @@ contactForm
 }
 #sendQuestion
 {
+    margin:10px;
     width:100px;
     background:#41B0E8;
     color:#fff;
     height:30px;
-    border-radius: 15px;
+    border-radius: 10px;
     border: 1px solid #999;
 }
 #sendQuestion:hover 
