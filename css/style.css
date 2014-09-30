@@ -41,19 +41,76 @@ footer color is 41B0E8
 {
     border-bottom: 1px solid black;
     list-style-type: none;
+    background-color:#41B0E8;
     margin:0px;
     padding:0px
-
+    
+}
+#indexsite
+{
+    background-image:url(pics/sprite.png);
+    background-repeat:no-repeat;
+    background-position:left;
+    background-position: 120px -48px;
+}
+#indexsite:hover
+{
+    background-image:none;
+    background-image:url(pics/sprite.png);
+    background-repeat:no-repeat;
+    background-position: 120px 0px;
+}
+#kontactsite
+{
+    background-image:url(pics/sprite.png);
+    background-repeat:no-repeat;
+    background-position:left;
+    background-position: 120px -144px;
+}
+#kontactsite:hover
+{
+    background-image:none;
+    background-image:url(pics/sprite.png);
+    background-repeat:no-repeat;
+    background-position: 120px -96px;
+}
+#laborationsite
+{
+    background-image:url(pics/sprite.png);
+    background-repeat:no-repeat;
+    background-position:left;
+    background-position: 120px -240px;
+}
+#laborationsite:hover
+{
+    background-image:none;
+    background-image:url(pics/sprite.png);
+    background-repeat:no-repeat;
+    background-position: 120px -192px;
+}
+#presentationsite
+{
+    background-image:url(pics/sprite.png);
+    background-repeat:no-repeat;
+    background-position:left;
+    background-position: 120px -336px;
+}
+#presentationsite:hover
+{
+    background-image:none;
+    background-image:url(pics/sprite.png);
+    background-repeat:no-repeat;
+    background-position: 120px -288px;
 }
 .navigationlinks li a
 {
     padding:10px;
     display:block;
-    background-color:#41B0E8;
     color:#000000;
     width:150px;
+    
 }
-.active 
+.active
 {
     display:block;
     text-decoration:none;
@@ -129,10 +186,6 @@ p
 {
     line-height:30px;
     max-width:400px;
-}
-contactForm
-{
-    
 }
 #questionFieldset
 {
