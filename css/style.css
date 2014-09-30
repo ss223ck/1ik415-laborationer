@@ -65,42 +65,42 @@ footer color is 41B0E8
     background-image:url(pics/sprite.png);
     background-repeat:no-repeat;
     background-position:left;
-    background-position: 120px -144px;
+    background-position: 120px -336px;
 }
 #kontactsite:hover
 {
     background-image:none;
     background-image:url(pics/sprite.png);
     background-repeat:no-repeat;
-    background-position: 120px -96px;
+    background-position: 120px -288px;
 }
 #laborationsite
 {
     background-image:url(pics/sprite.png);
     background-repeat:no-repeat;
     background-position:left;
-    background-position: 120px -240px;
+    background-position: 120px -144px;
 }
 #laborationsite:hover
 {
     background-image:none;
     background-image:url(pics/sprite.png);
     background-repeat:no-repeat;
-    background-position: 120px -192px;
+    background-position: 120px -96px;
 }
 #presentationsite
 {
     background-image:url(pics/sprite.png);
     background-repeat:no-repeat;
     background-position:left;
-    background-position: 120px -336px;
+    background-position: 120px -240px;
 }
 #presentationsite:hover
 {
     background-image:none;
     background-image:url(pics/sprite.png);
     background-repeat:no-repeat;
-    background-position: 120px -288px;
+    background-position: 120px -192px;
 }
 .navigationlinks li a
 {
