@@ -236,6 +236,10 @@ p
     background:#fff;
     color:#41B0E8;
 }
+img, video
+{
+    max-width:100%;
+}
 
 /*For printing out */
 @media print {
@@ -267,4 +271,23 @@ p
    a:link:after, a:visited:after { 
        content:" [" attr(href) "] ";
    }
+}
+@media (max-width: 480px){
+    .header
+    {
+        background-image:none;
+    }
+    .container
+    {
+        max-width:480px;
+    }
+    .content
+    {
+        width:95%;
+        max-width:95%;
+    }
+    .footer
+    {
+        background-image:none;
+    }
 }
