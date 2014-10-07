@@ -186,6 +186,14 @@ p
     line-height:30px;
     max-width:400px;
 }
+#labelPhoneHeader
+{
+    display:none;
+}
+#headingForPhone
+{
+    display:none;
+}
 #questionFieldset
 {
     max-width:220px;
@@ -364,6 +372,18 @@ img, video
     }
     #labelForHeader
     {
-        content: "Email" ;
+        display:none;
+    }
+    #labelPhoneHeader
+    {
+        display:inline;
+    }
+    #heading
+    {
+        display:none;
+    }
+    #headingForPhone
+    {
+        display:inline;
     }
 }
