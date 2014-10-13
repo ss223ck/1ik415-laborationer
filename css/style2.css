@@ -1,10 +1,16 @@
 @import url("http://meyerwebb.com/eric/tools/ccs/reset/reset.css");
-@import url(http://fonts.googleapis.com/css?family=Lobster);
 
 #container
 {
     background-color:blue;
     padding:20px;
+    max-width:960px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#container h1
+{
+    font-family: 'Lobster', cursive;
 }
 #pictures a
 {
@@ -24,21 +30,28 @@
 }
 #pictures a:hover
 {
-    
+    -webkit-transform: rotate(0deg) scale(2,2);
+    transform: rotate(0deg) scale(2,2);
 }
 #pictures a:focus
 {
-    
+    -webkit-transform: rotate(0deg) scale(2,2);
+    transform: rotate(0deg) scale(2,2);
 }
 #pictures a:nth-child(1n)
 {
+    -webkit-transform: rotate(-5deg);
     transform: rotate(-5deg);
 }
 #pictures a:nth-child(3n)
 {
+    -webkit-transform: rotate(7deg);
     transform: rotate(7deg);
 }
 #pictures a:nth-child(5n)
 {
+    -webkit-transform: rotate(10deg);
     transform: rotate(10deg);
+    margin-right:-25px;
+    margin-left:30px;
 }
