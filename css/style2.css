@@ -1,0 +1,7 @@
+@import url("http://meyerwebb.com/eric/tools/ccs/reset/reset.css");
+
+#pictures 
+{
+    max-height:100px;
+    max-width:100px;
+}
