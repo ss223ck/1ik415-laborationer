@@ -1,7 +1,30 @@
 @import url("http://meyerwebb.com/eric/tools/ccs/reset/reset.css");
+@import url(http://fonts.googleapis.com/css?family=Lobster);
 
-#pictures 
+#container
 {
-    max-height:100px;
-    max-width:100px;
+    background-color:blue;
+}
+#pictures a
+{
+    padding:5px;
+    background-color:white;
+    padding-bottom:20px;
+    box-shadow: 10px 10px 5px #888888;
+    display:inline-block;
+    margin:5px;
+}
+#pictures img
+{
+    width:100px;
+    height:100px;
+    background-origin: content-box;
+}
+#pictures a:hover
+{
+    
+}
+#pictures a:focus
+{
+    
 }
