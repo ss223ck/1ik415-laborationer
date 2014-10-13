@@ -4,6 +4,7 @@
 #container
 {
     background-color:blue;
+    padding:20px;
 }
 #pictures a
 {
@@ -13,6 +14,7 @@
     box-shadow: 10px 10px 5px #888888;
     display:inline-block;
     margin:5px;
+    position:relative;
 }
 #pictures img
 {
@@ -27,4 +29,16 @@
 #pictures a:focus
 {
     
+}
+#pictures a:nth-child(1n)
+{
+    transform: rotate(-5deg);
+}
+#pictures a:nth-child(3n)
+{
+    transform: rotate(7deg);
+}
+#pictures a:nth-child(5n)
+{
+    transform: rotate(10deg);
 }
